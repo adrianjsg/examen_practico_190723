@@ -11,9 +11,6 @@ SELECT id FROM nombre_de_la_tabla WHERE nombre = 'Juan';
 INSERT INTO nombre_de_la_tabla (nombre, apellido, correo) VALUES ('Juan', 'Garcia', 'juan.garcia@gmail.com');
 
 
-
 #Actualizar el campo edad de Juan a 60 años.
 
 UPDATE nombre_de_la_tabla SET edad = 60 WHERE nombre = 'Juan';
-
-
